@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center" class="bg-primary p-5">
+  <h1 class="text-defaut">
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+
+
+<button [routerLink]="['/customers/customerlist']">Customers List</button>
+<button [routerLink]="['/customers/phone']">Pnone List</button>
+<button [routerLink]="['/orders/orderlist']">Orders</button>
+
+
+<router-outlet></router-outlet>
