@@ -3,17 +3,17 @@
 </h1>
 
 <ul class="customer">
-  <li>
-    <a>Customer one</a>
+  <li [routerLink]="['\customer1']">
+    <a >Customer one</a>
   </li>
-  <li>
-    <a>Customer Two</a>
+  <li [routerLink]="['\customer2']">
+    <a >Customer Two</a>
   </li>
-  <li>
+  <li  [routerLink]="['\customer3']">
     <a>Customer Three</a>
   </li>
-  <li>
+  <!-- <li>
     <a>Customer Four</a>
-  </li>
+  </li> -->
 </ul>
 <router-outlet></router-outlet>

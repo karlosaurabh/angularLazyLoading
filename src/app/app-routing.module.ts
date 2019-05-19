@@ -11,11 +11,6 @@ const routes: Routes = [
     path: 'orders',
     loadChildren: './orders/orders.module#OrdersModule'
    },
-  //,{
-  //   path: 'customerlist',
-  //   loadChildren: './customers/customer-list/customer-list.module#CustomerListComponent',
-  // },
- 
   {
     path: '',
     redirectTo: 'customers',
