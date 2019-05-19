@@ -11,7 +11,7 @@ import { CustomerListModule } from './customer-list/customer-list.module';
   imports: [
     CommonModule,
     CustomersRoutingModule,
-    CustomerListRoutingModule,
+    // CustomerListRoutingModule,
     CustomerListModule
   ],
   declarations: [
